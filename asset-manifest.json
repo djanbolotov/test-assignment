@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/test-assigment.io/static/css/main.a5c3ec60.chunk.css",
-    "main.js": "/test-assigment.io/static/js/main.af0b06e4.chunk.js",
-    "main.js.map": "/test-assigment.io/static/js/main.af0b06e4.chunk.js.map",
-    "runtime-main.js": "/test-assigment.io/static/js/runtime-main.5b686061.js",
-    "runtime-main.js.map": "/test-assigment.io/static/js/runtime-main.5b686061.js.map",
-    "static/js/2.31722e21.chunk.js": "/test-assigment.io/static/js/2.31722e21.chunk.js",
-    "static/js/2.31722e21.chunk.js.map": "/test-assigment.io/static/js/2.31722e21.chunk.js.map",
-    "index.html": "/test-assigment.io/index.html",
-    "static/css/main.a5c3ec60.chunk.css.map": "/test-assigment.io/static/css/main.a5c3ec60.chunk.css.map",
-    "static/js/2.31722e21.chunk.js.LICENSE.txt": "/test-assigment.io/static/js/2.31722e21.chunk.js.LICENSE.txt"
+    "main.css": "/test-assigment/static/css/main.a5c3ec60.chunk.css",
+    "main.js": "/test-assigment/static/js/main.af0b06e4.chunk.js",
+    "main.js.map": "/test-assigment/static/js/main.af0b06e4.chunk.js.map",
+    "runtime-main.js": "/test-assigment/static/js/runtime-main.912c0baa.js",
+    "runtime-main.js.map": "/test-assigment/static/js/runtime-main.912c0baa.js.map",
+    "static/js/2.81946901.chunk.js": "/test-assigment/static/js/2.81946901.chunk.js",
+    "static/js/2.81946901.chunk.js.map": "/test-assigment/static/js/2.81946901.chunk.js.map",
+    "index.html": "/test-assigment/index.html",
+    "static/css/main.a5c3ec60.chunk.css.map": "/test-assigment/static/css/main.a5c3ec60.chunk.css.map",
+    "static/js/2.81946901.chunk.js.LICENSE.txt": "/test-assigment/static/js/2.81946901.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b686061.js",
-    "static/js/2.31722e21.chunk.js",
+    "static/js/runtime-main.912c0baa.js",
+    "static/js/2.81946901.chunk.js",
     "static/css/main.a5c3ec60.chunk.css",
     "static/js/main.af0b06e4.chunk.js"
   ]
