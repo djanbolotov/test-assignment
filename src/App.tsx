@@ -11,12 +11,12 @@ export const App: React.FC = () =>{
   const {loading} = useTypedSelector(set => set.posts)
   
   return (
-    <Router>
+    <Router basename="/test-assigment">
       <NavBar/>
       <Switch>
-        <Route path="/test-assigment/" exact component={Posts}/>
-        <Route path="/test-assigment/posts/new" component={New}/>
-        <Route path="/test-assigment/posts/:postID" component={PostID}/>
+        <Route path="/" exact component={Posts}/>
+        <Route path="/posts/new" component={New}/>
+        <Route path="/posts/:postID" component={PostID}/>
       </Switch>
       {loading && <PreLoader/>}
     </Router>

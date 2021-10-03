@@ -8,11 +8,11 @@ const Navbar: React.FC = () => {
   return (
     <Nav>
       <Logo>
-        <Link to="/test-assigment/">Djan<span>bolotov</span></Link>
+        <Link to="/">Djan<span>bolotov</span></Link>
       </Logo>
       <Menu>
-        <MenuLink><Link to="/test-assigment/">All Posts</Link></MenuLink>
-        <MenuLink><Link to="/test-assigment/posts/new">New Post</Link></MenuLink>
+        <MenuLink><Link to="/">All Posts</Link></MenuLink>
+        <MenuLink><Link to="/posts/new">New Post</Link></MenuLink>
       </Menu>
     </Nav>
   );
