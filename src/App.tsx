@@ -14,7 +14,7 @@ export const App: React.FC = () =>{
     <Router>
       <NavBar/>
       <Switch>
-        <Route path="/" exact component={Posts}/>
+        <Route path="/" component={Posts}/>
         <Route path="/posts/new" component={New}/>
         <Route path="/posts/:postID" exact component={PostID}/>
       </Switch>

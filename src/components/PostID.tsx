@@ -10,7 +10,7 @@ import  Form  from './Form';
 
 
 const PostID: React.FC = () => {
-    let text = "Edit";
+    const text = "Edit";
     const bool = true;
     const {postID} = useParams<{postID: string}>()
     const post = useTypedSelector(state => state.posts.post)

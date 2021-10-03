@@ -1,4 +1,6 @@
+import React from 'react'
 import "./PreLoader.css"
+
 export default function PreLoader() {
     return (
         <div className='loader-wrap'>
