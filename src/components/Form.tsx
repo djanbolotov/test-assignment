@@ -47,19 +47,19 @@ const Form: React.FC<Props> = ({text, withComment, post, id = 1}) => {
     const sendPost = (data: any) =>{
         dispatch(newPost(data))
         dispatch(fetchPosts())
-        history.push("/")
+        history.push("/test-assigment/")
     }
      
     const updateCurrentPost = (id: number, data: any) =>{
         dispatch(updatePost(id, data))
         dispatch(fetchPosts())
-        history.push("/")
+        history.push("/test-assigment/")
     }
 
     const createNewComment = (data: any) => {
         dispatch(createComment(data))
         dispatch(fetchPosts())
-        history.push("/")
+        history.push("/test-assigment/")
     }
     useEffect(()=>{
         if(post)

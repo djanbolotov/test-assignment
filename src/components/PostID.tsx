@@ -20,7 +20,7 @@ const PostID: React.FC = () => {
     const deletePostID = (postID: number) => {
         dispatch(deletePost(postID))
         dispatch(fetchPosts())
-        history.push("/")
+        history.push("/test-assigment/")
     }
   
     useEffect(() => {

@@ -14,9 +14,9 @@ export const App: React.FC = () =>{
     <Router>
       <NavBar/>
       <Switch>
-        <Route path="/" component={Posts}/>
-        <Route path="/posts/new" component={New}/>
-        <Route path="/posts/:postID" exact component={PostID}/>
+        <Route path="/test-assigment/" component={Posts}/>
+        <Route path="/test-assigment/posts/new" exact component={New}/>
+        <Route path="/test-assigment/posts/:postID" exact component={PostID}/>
       </Switch>
       {loading && <PreLoader/>}
     </Router>

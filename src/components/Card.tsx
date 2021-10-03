@@ -10,7 +10,7 @@ type Props = {
 export const Card: React.FC<Props> = ({post}) => {
   const history = useHistory()
   const toPost = (id: number) => {
-    history.push("/posts/" + id)
+    history.push("/test-assigment/posts/" + id)
   }
   return (
     <Container>
