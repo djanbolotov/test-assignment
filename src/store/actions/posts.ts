@@ -1,6 +1,6 @@
 import axios from "axios"
 import { Dispatch } from "react"
-import { NewPost, NewPostActions, PostAction, PostsActionTypes } from "../types/posts"
+import { NewPost, NewPostActions, PostAction, PostsActionTypes, Comment } from "../types/posts"
 const point = "https://simple-blog-api.crew.red/posts/"
 
 export const fetchPosts = () => {

@@ -26,7 +26,7 @@ export const Title = styled.h1`
   font-size: 1.25rem;
   font-weight: bold;
   margin: 0;
-  max-height: 30px;
+  max-height: 26px;
   overflow: hidden;
 
 `;
@@ -38,6 +38,17 @@ export const Text = styled.p`
   overflow: hidden;
   margin:0;
 `;
+
+export const Parentcard = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 8rem;
+    width: 90%;
+    padding: 0;
+    margin: auto;
+`
 
 export const Button = styled.button`
   cursor: pointer;

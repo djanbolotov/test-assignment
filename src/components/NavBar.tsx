@@ -1,6 +1,6 @@
 import React from 'react'
-import {Nav, Logo, Menu, MenuLink} from "./../utils/Navbar";
-import {Link} from "react-router-dom";
+import { Nav, Logo, Menu, MenuLink } from "../styles/Navbar";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
 

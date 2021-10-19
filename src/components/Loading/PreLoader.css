@@ -19,7 +19,7 @@
 }
 .loader:after{
 	color: rgba(0,183,229,0.9);
-	content: "Загрузка...";
+	content: "Loading...";
 
 	font-size: 20px;
 	position: absolute;

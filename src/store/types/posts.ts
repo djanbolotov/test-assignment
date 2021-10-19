@@ -14,11 +14,11 @@ export interface Post {
     id: number;
     title: string;
     body: string;
-    comments?: Comment[];
+    comments: Comment[];
 }
 
-interface Comment {
-    id: number;
+export interface Comment {
+    id?: number;
     postID: number;
     body: string;
 }
